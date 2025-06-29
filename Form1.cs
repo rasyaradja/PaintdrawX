@@ -60,11 +60,11 @@ namespace PaintDrawX
             int centerX = width / 2;
             int centerY = menuStrip1.Height + (height - 60) / 2 + 10;
 
-            // Outer green arc (ring with gap at the bottom)
+            // Outer green arc
             if (drawStep >= 1)
             {
                 int outerRadius = size / 2;
-                int ringThickness = (int)(outerRadius * 0.55); // much thicker, close to reference
+                int ringThickness = (int)(outerRadius * 0.55); 
                 Rectangle outerCircle = new Rectangle(centerX - outerRadius, centerY - outerRadius, size, size);
                 using (Pen greenPen = new Pen(Color.FromArgb(0, 184, 72), ringThickness))
                 {
@@ -81,7 +81,7 @@ namespace PaintDrawX
             if (drawStep >= 2)
             {
                 int outerRadius = size / 2;
-                int dotRadius = (int)(outerRadius * 0.38); // much thicker, close to reference
+                int dotRadius = (int)(outerRadius * 0.38); 
                 int dotSize = dotRadius * 2;
                 Rectangle dotCircle = new Rectangle(centerX - dotRadius, centerY - dotRadius, dotSize, dotSize);
                 using (Brush greenBrush = new SolidBrush(Color.FromArgb(0, 184, 72)))
