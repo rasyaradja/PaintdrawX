@@ -39,7 +39,9 @@ PaintDrawX is a simple Windows Forms application written in C# that demonstrates
 - `PaintDrawX.csproj` - Project file
 
 ## Screenshots
-*(Add screenshots here if desired)*
+
+![PaintDrawX Visualization](media/visualization.jpg)
+*Example of the Gojek logo drawn by PaintDrawX*
 
 ## License
 This project is for educational and demonstration purposes. No license specified. 
